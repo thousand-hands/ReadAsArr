@@ -8,7 +8,7 @@ class ReadFile
     {
         if (file_exists($fileName) && $handle = fopen($fileName, 'rb')) {
             while (feof($handle) === false) {
-                yield fgets($handle, 0);
+                yield fgets($handle);
             }
             fclose($handle);
         }
