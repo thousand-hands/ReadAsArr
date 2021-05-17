@@ -1,0 +1,24 @@
+{
+    "name": "h/read-as-arr",
+    "type": "library",
+    "description": "RAR is a php library that can read file as array for you.",
+    "keywords": [
+        "Generators",
+        "library"
+    ],
+    "authors": [
+        {
+            "name": "thh",
+            "email": "hzjmessage@outlook.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ReadAsArr\\": "src/"
+        }
+    }
+}
